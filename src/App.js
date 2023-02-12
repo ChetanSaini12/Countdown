@@ -6,6 +6,8 @@ import { useState } from "react";
 function App() {
   const [mint, setmint] = useState("");
   const [secnd, setsecnd] = useState("");
+  
+
   return (
     <div className="App">
       <form>
@@ -14,7 +16,7 @@ function App() {
             <span className="label-text">Minutes:</span>
           </label>
           <input
-            type="text"
+            type="number"  
             value={mint}
             className="input input-bordered input-sm  max-w-xs"
             onChange={(event) => setmint(event.target.value)}
@@ -25,7 +27,7 @@ function App() {
             <span className="label-text">Seconds:</span>
           </label>
           <input
-            type="text"
+            type="number"
             value={secnd}
             className="input input-bordered input-sm max-w-xs"
             onChange={(event) => setsecnd(event.target.value)}

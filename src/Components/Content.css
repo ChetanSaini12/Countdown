@@ -1,0 +1,29 @@
+:root {
+  font-family: "EB Garamond", serif;
+}
+
+
+.txt {
+  font-family: "EB Garamond", serif, Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+
+    color: rgb(5, 5, 6);
+    font-weight: bolder;
+    font-size:7vh;
+    /* margin: auto; */
+}
+
+.Timer {
+  /* font-family: 'Knewave', cursive; */
+  font-family: 'Nosifer', cursive;
+  font-weight: normal;
+  font-size: 20vh;
+  letter-spacing: 0.5rem;
+  /* font-style: italic; */
+}
+
+.btn-disabled{
+  background-color: rgba(106, 95, 95, 0.335);
+  pointer-events: none;
+  color: #1a1919;
+}
